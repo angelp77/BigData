@@ -1,0 +1,48 @@
+{  
+      "data"     :     [  
+           {  
+                "nombre_e": "Aprende-T",  
+                "fecha": "29/Dic/2016",
+		"hora": "13:30",
+		"lugar": "Auditorio ML",
+		"nombre_p": "Michael Bruce",
+		"correo_p": "Michael@gmail.com",
+		"info": "uniandes.edu.co",
+		"resumen": "Conoceras todo sobre la tecnología",
+                "clave": "System Architect"  
+           },  
+           {  
+                "nombre_e": "Enlaza-T",  
+                "fecha": "15/Oct/2016",
+		"hora": "16:40",
+		"lugar": "Auditorio Lleras",
+		"nombre_p": "Jennifer Winters",
+		"correo_p": "Jennifer@gmail.com",
+		"info": "uniandes.edu.co",
+		"resumen": "Aprende a trabajar eficientemente",
+                "clave": "Senior Programmer" 
+           },  
+           {  
+                "nombre_e": "Production",  
+                "fecha": "15/Sept/2016",
+		"hora": "18:20",
+		"lugar": "Edificio ML",
+		"nombre_p": "Donna Fox",
+		"correo_p": "Donna@gmail.com",
+		"info": "uniandes.edu.co",
+		"resumen": "Aprende el arte de producir en grande",
+                "clave": "Office Manager" 
+           },  
+           {  
+                "nombre_e": "Movilidad",  
+                "fecha": "09/Nov/2016",
+		"hora": "12:40",
+		"lugar": "Edificio LL",
+		"nombre_p": "Cynthia E. Folmar",
+		"correo_p": "Cynthia@gmail.com",
+		"info": "uniandes.edu.co",
+		"resumen": "Conoce los destinos de movilidad de la Uniandes",
+                "clave": "Pharmacy technician" 
+           }  
+      ]  
+ }  

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Apliación Web</title>
+    <meta charset="UTF-8">
+    <meta name="description" content=""/>
+    <meta name="keywords" content="" />
+    
+    <!--Boostrap-->
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href=/static/bootstrap-theme.min.css">
+   
+    <!--Hoja de Estilo-->
+    <link rel="stylesheet" href="/static/HojaEstilo.css">
+</head>
+    
+    <body>
+        
+        <div id="contenidoprin">
+        <section>
+        <br><marquee scrollamount="15">Analisis de Información sobre Big Data</marquee><br>  
+
+        </section>
+ 
+    </div>
+        
+    <br>
+        
+    <section>    
+     <div id=Inicio1>   
+        <form role="form">
+            
+        <div id="na" class="row">
+            <div class="col-xs-10">
+                <div class="form-group">
+                <label>Variable 1</label>
+                    <input type="text" id="Nom1" class="form-control" placeholder="Ingresa la variable 1">
+                <br><label>Variable 2</label>
+                    <input type="text" id="Ape1" class="form-control" placeholder="Ingresa la variable 2">
+                </div></div></div>
+            
+           
+        <div id="na" class="row">
+            <div class="col-xs-10">    
+                <div class="form-group">
+            <br><label>Función</label>
+                        <select class="form-control">
+                            <option>Seleccione la función</option>
+                            <option>Sumar</option>
+                            <option>Restar</option>
+                            <option>Potenciar</option>
+                    </select></div></div></div>
+            
+         
+            
+            
+            <div id="na" class="row">
+            <div class="col-xs-10">
+                <div class="form-group">
+                
+                <br><label>Resultado</label>
+                    <output type="text" id="Ape1" class="form-control">
+                </div></div></div>
+            
+        
+            
+
+                
+        <br><div id="bot">
+            <button type="submit" class="btn btn-primary">Enviar</button> 
+        </div>
+</form></div></section>
+        
+        
+        
+ </div>
+        
+    
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
+
+
+
+<!--http://librosweb.es/bootstrap_3/capitulo_6/barras_de_progreso.html-->

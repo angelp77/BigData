@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Apliación Web</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content=""/>
+    <meta name="keywords" content="" />
+    
+    <!--Boostrap-->
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/bootstrap-theme.min.css">
+   
+    <!--Hoja de Estilo-->
+    <link rel="stylesheet" href="/static/HojaEstilo.css">
+
+</head>
+    
+    <body>
+        
+        <div id="contenidoprin">
+        <section>
+        <br><marquee scrollamount="15">Analisis de Información sobre Big Data</marquee><br>  
+
+        </section>
+ 
+    </div>
+        
+    <br>
+        
+    <section>    
+     <div id=Inicio1>   
+        <form role="form">
+            
+        <br><label><h3>Seleccione</h3></label>
+
+                        
+
+                
+        <br><div id="bot">
+            <button type="button" class="btn btn-primary" onclick="window.location.href='http://127.0.0.1:8000/uno/'">Enunciado 1</button> 
+        </div>
+
+        <br><div id="bot1">
+            <button type="button" class="btn btn-primary" onclick="window.location.href='http://127.0.0.1:8000/uno/'">Enunciado 2</button> 
+        </div>
+
+
+<br><br><br><br>
+<label>Grupo: 12</label><br>
+<label>Oscar Martín Arcos Román</label><br>
+<label>Carlos Coy</label><br>
+<label>Daniel Barrera</label>
+</form></div></section>
+        
+    
+        
+    
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

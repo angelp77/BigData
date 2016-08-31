@@ -20,6 +20,7 @@ datos_e_link=[]
 datos_e_descrip=[]
 
 cont_e=0
+cont_h=0
 count_e=0
 
 #defino una clase tipo Rss
@@ -45,12 +46,12 @@ for post_e in e.entries:
     #cont_e += 1
 
 for post_h in h.entries:
-    #datos_e_title.insert(cont_e,post_e.title)
-    #datos_e_link.insert(cont_e,post_e.link)
-    #datos_e_descrip.insert(cont_e,post_e.description)
+    #datos_h_title.insert(cont_h,post_h.title)
+    #datos_h_link.insert(cont_h,post_h.link)
+    #datos_h_descrip.insert(cont_h,post_h.description)
     myrss = rss(post_h.title, post_h.link, post_h.description)
     rsslist.append(myrss)
-    #cont_e += 1
+    #cont_h += 1
 
 
 #create list of vm dictionaries

@@ -6,106 +6,108 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/bs-3.3.5/jq-2.1.4,dt-1.10.8/datatables.min.css"/>  
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/bs-3.3.5/jq-2.1.4,dt-1.10.8/datatables.min.css"/>
     <script type="text/javascript" src="https://cdn.datatables.net/r/bs-3.3.5/jqc-1.11.3,dt-1.10.8/datatables.min.js"></script>
 
     <meta charset="UTF-8">
     <meta name="description" content=""/>
     <meta name="keywords" content="" />
-    
+
     <!--Boostrap-->
     <link rel="stylesheet" href="/static/bootstrap.min.css">
     <link rel="stylesheet" href="/static/bootstrap-theme.min.css">
-   
+
     <!--Hoja de Estilo-->
     <link rel="stylesheet" href="/static/HojaEstilo1.css">
 
 
 
-<script> 
-function Data(){
- $(document).ready(function(){  
-      table = $('#data-table2').DataTable({ 
-		
-           "ajax"     :     "/static/data2.json",  
-           "columns"     :     [  
-                {     "data"     :     "title"},
-                {     "data"     :     "link"},
-		        {     "data"     :     "description"}
-           ]
-		   
-      });  
+    <script>
+        function Data(){
+            $(document).ready(function(){
+                table = $('#data-table2').DataTable({
 
-table.destroy();
+                    "ajax"     :     "/static/data2.json",
+                    "columns"     :     [
+                        {     "data"     :     "title"},
+                        {     "data"     :     "link"},
+                        {     "data"     :     "description"}
+                    ]
 
-table = $('#data-table2').DataTable({ 
-		
-           "ajax"     :     "/static/data2.json",  
-           "columns"     :     [  
-                {     "data"     :     "title"},
-                {     "data"     :     "link"},
-		        {     "data"     :     "description"}
-           ]
-		   
-      });  
+                });
 
-});
-}
- </script> 
-		
-	
+                table.destroy();
+
+                table = $('#data-table2').DataTable({
+
+                    "ajax"     :     "/static/data2.json",
+                    "columns"     :     [
+                        {     "data"     :     "title"},
+                        {     "data"     :     "link"},
+                        {     "data"     :     "description"}
+                    ]
+
+                });
+
+            });
+        }
+    </script>
+
+
 
 
 </head>
-    
-    <body>
-        
-        <div id="contenidoprin">
-        <section>
-        <br><marquee scrollamount="15">Analisis de Información sobre Big Data</marquee><br>  
 
-        </section>
- 
-    </div>
-        
-    <br>
-        
-    <section>    
-     <div id=Inicio1>   
+<body>
+
+<div id="contenidoprin">
+    <section>
+        <br><marquee scrollamount="15">Analisis de Información sobre Big Data</marquee><br>
+
+    </section>
+
+</div>
+
+<br>
+
+<section>
+    <div id=Inicio1>
         <form role="form">
-            
-        
-	<br>
-<label>Busqueda de información por crawling</label>
-<div id="bot">
-            <button type="button" class="btn btn-primary" onclick="Data();">Buscar</button> 
-        </div>
-</form></div></section>
-        
-        
-
-	<div class="form-group">
-<br><br>
-	
-	<table id="data-table2" class="table table-bordered " >
-	<thead>	
-	<tr>
-		<th>Titulo</th>
-		<th>Link</th>
-		<th>Descripcion</th>
-	</tr>
-	</thead>
-	
 
 
-	</table>
-	</div>
+            <br>
+            <label>Utilización de fuentes de sindicación/suscripción, RegEX y XQuery</label>
+            <label>Fuentes:  </label>
+            <label>El Espectador  -  Huffingtonpost</label>
+            <div id="bot">
+                <button type="button" class="btn btn-primary" onclick="Data();">Buscar</button>
+            </div>
+        </form></div></section>
 
-        
- </div>
-        
-    
-        <script src="js/jquery-1.11.1.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-    </body>
+
+
+<div class="form-group">
+    <br><br>
+
+    <table id="data-table2" class="table table-bordered " >
+        <thead>
+        <tr>
+            <th>Titulo</th>
+            <th>Link</th>
+            <th>Descripcion</th>
+        </tr>
+        </thead>
+
+
+
+    </table>
+</div>
+
+
+</div>
+
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>

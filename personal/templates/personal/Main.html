@@ -18,45 +18,46 @@
 </head>
     
     <body>
-        
+
         <div id="contenidoprin">
         <section>
-        <br><marquee scrollamount="15">Analisis de Información sobre Big Data</marquee><br>  
+        <br><marquee scrollamount="15">Analisis de Información sobre Big Data</marquee><br>
 
         </section>
- 
+
     </div>
-        
+
     <br>
-        
-    <section>    
-     <div id=Inicio1>   
-        <form role="form">
-            
+
+    <section>
+     <div id=Inicio1>
+
+
         <br><label><h3>Seleccione</h3></label>
 
-                        
 
-                
+
+        <form action="{% url 'index1' %}" method="post">
         <br><div id="bot">
-            <button type="button" class="btn btn-primary" onclick="window.location.href='http://127.0.0.1:8000/uno/'">Enunciado 1</button> 
+            <button type="submit" class="btn btn-primary" >Enunciado 1</button>
         </div>
-
+         </form>
+         <form action="{% url 'index' %}" method="post">
         <br><div id="bot1">
-            <button type="button" class="btn btn-primary" onclick="window.location.href='http://127.0.0.1:8000/dos/'">Enunciado 2</button> 
+            {% csrf_token %}
+            <button type="submit" class="btn btn-primary" >Enunciado 2</button>
         </div>
-
-
+        </form>
 <br><br><br><br>
 <label>Grupo: 12</label><br>
 <label>Oscar Martín Arcos Román</label><br>
 <label>Carlos Eduardo Coy</label><br>
 <label>Angel Daniel Barrera</label>
-</form></div></section>
-        
-    
-        
-    
+</div></section>
+
+
+
+
         <script src="js/jquery-1.11.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>

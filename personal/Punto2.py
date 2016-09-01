@@ -36,7 +36,8 @@ def as_rss(rssdict):
     return nuevorss
 
 #crear los rss y agregarlos a una lista
-rsslist=[] for post_e in e.entries:
+rsslist=[]
+for post_e in e.entries:
     #datos_e_title.insert(cont_e,post_e.title)
     #datos_e_link.insert(cont_e,post_e.link)
     #datos_e_descrip.insert(cont_e,post_e.description)

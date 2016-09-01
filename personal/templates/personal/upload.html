@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <form action="{% url 'post_upload' %}" method="post">
+  {% csrf_token %}
+  <label for="content"></label>
+  <input type="text" name="content" id="content" />
+  <input type="submit" />
+</form>
+</head>
+<body>
+
+</body>
+</html>
